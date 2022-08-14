@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    filter: blur(2px);
+}
+body{
+    background: linear-gradient(to right bottom,#01000b,#113c67,#010011);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+   
+}
+#container-box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+
+#nav-cover{
+    background-color: #ffffff15;
+    height: 100vh;
+    width: 17vw;
+    border-radius: 0 10px 10px 0;   
+}
+
+.logo ul{
+    display: flex;
+    margin: 5%;
+    align-items: center;
+    justify-content:flex-start;
+    list-style-type: none;
+}
+.logo ul li{
+    margin: 0 3%;
+    font-size: 1.5vw;
+    color: #ffffff;
+    font-weight: bold;
+}
+.logo ul li img{
+    height: 6vh;
+    width: 3vw;
+    background-color: #ffffff15;
+    border-radius: 50%;
+}
+/* Activity information  */
+
+/* Hover effect colour change on nav links  */
+
+.text-color:hover{
+    color: #c3cee7;
+    font-weight: 500;
+}
+
+
+
+.activity-info ul{
+    list-style-type: none;    
+    margin: 30% 0 30% 10%;
+    align-items: center;
+    
+}
+.activity-info ul li:nth-child(1){
+    color: #ffffff99;
+    
+}
+.activity-info ul li{
+    margin: 10% 0;
+    font-size: 1.5vw;
+    color: #ffffff;
+    
+}
+.activity-info ul li img{
+    height: 4vh;
+    width: 2vw;
+    margin-right: 3%;
+}
+
+
+/* Main content box  */
+
+#main-content{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.floating-items{
+    display: flex;
+    margin: 3%;
+    justify-content: space-between;
+}
+.search-boxes, .icons-images{
+    display: flex;
+}
+.search input{
+    width: 30vw;
+    height: 4vh;
+    background-color: #113c6710;
+    color: white;
+    border-radius: 5px;
+    padding: 0 3%;
+}
+
+.button input{
+    height: 4.5vh;
+    width: 5vw;
+    margin: 0 0 0 50%;
+    padding: 0 3%;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: #ffffff15;
+    border-color: #ffffff15;
+}
+.button input:hover{
+    background-color: #ffffff;
+    color: #020020;
+    font-weight: bold;
+
+}
+.icons-images{
+    align-items: center;
+    margin-right: 5%;
+}
+.icons-images div{
+    margin: 0 3%;
+}
+.notification img{
+    height: 4.5vh;
+}
+.notification img:hover{
+    background-color: #ffffff25;
+    border-radius: 50%;
+    padding: 20%;
+    
+}
+.icon-img img{
+    height: 6.5vh;
+    border-radius: 50%;
+    background-color: #ffffff25;
+    padding: 5%;
+}
+.icon-img img:hover{
+    height: 6.5vh;
+    border-radius: 50%;
+    background-color: #ffffff65;
+    padding: 5%;
+}
+
+.account-name{
+    color: #ffffffe4;
+}
+.account-name p{
+    color: #ffffff65;
+}
+ 
+/* Middle center content  */
+
+.Scrolled-content{
+    margin-left: 3%;
+    font-size: 1.5vw;
+    color: #ffffff;
+    height: 73.3vh;
+    width: 70%;
+}
+.story-box{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    height: 25vh;
+    width: 10vw;
+    background-color: #113c67;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+/* Box hover effect  */
+.story-image:hover{
+    transition: 1s;
+    background-color: #113c67;
+    padding: 5%;
+}
+/* Box story image  */
+.box img{
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.user-content{
+    height: 43%;
+    width: 100%;
+    background-color: #113c6770;
+    border-radius: 10px;
+}
+#middle-content{
+    display: flex;
+}
+
+/* Music body designin  */
+
+.music-body{
+    margin-left: 3%;
+    font-size: 1.2vw;
+    color: #ffffff;
+    height: 75vh;
+    width: 30%;
+}
+.music-body h1{
+    margin-left: 3%;
+}
+.music-item{
+    background-color: #ffffff10;;
+    height: 74vh;
+    margin: 8% 0 0 3%;
+    border-radius: 10px 0 0 10px;
+    padding-top: 2%;
+}
+.music-thumbnail{
+    background-image: url(../image/music-thumbnail.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 5%;
+    border-radius: 10px;
+    height: 40%;
+    width: 90%;
+    
+}
+.music-details{
+    
+    align-items: center;
+
+}
+.music-details ul li{
+    list-style-type: none;
+    text-align: center;
+    margin: 5% 0 ;
+}
+.music-details ul li:nth-child(2){
+    color: #ffffff85;
+}
+.music-body ul li input{
+    width: 90%;
+}
+/* Favourate icon  */
+.favorate-icon{
+    position: relative;
+    left: 40%;
+    width: 8%;
+}
+.music-body ul:nth-child(2){
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.music-body ul:nth-child(2) li{
+    background-color: #ffffff55;
+    padding: 3%;
+    border-radius: 50%;
+}
+.music-body ul:nth-child(2) li:hover{
+    transition: .5s ease;
+    background-color: #ffffff95;
+}
+
+
+.music-body ul:nth-child(2) li img{
+    width: 2vw;
+    height: 3.5vh;
+}
